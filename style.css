@@ -1,0 +1,110 @@
+/* body{
+  max-width: 800px;
+  margin: 0 auto;
+} */
+/*
+	Yoast FAQ CSS
+*/
+body .wp-block-yoast-faq-block .schema-faq-section{
+    border: 2px solid #335548;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+body .schema-faq-question {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    padding: 20px 65px 20px 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+body .schema-faq-question:after {
+    position: absolute;
+    content: "+";
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 2px solid #335548;
+    line-height: 1;
+    border-radius: 50%;
+    font-size: 25px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #335548;
+}
+body .schema-faq-section.active .schema-faq-question:after {
+    content: "-";
+    align-items: normal;
+    font-size: 30px;
+    line-height: 17px;
+}
+body .schema-faq-question:hover{
+    background: #eee;
+    border-radius: 8px;
+}
+body .schema-faq-section.active .schema-faq-question{
+  background: #eee;
+  border-radius: 0;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;  
+}
+body .schema-faq-answer {
+    display: none;
+    margin: 20px 0 20px;
+    padding: 0 20px;
+}
+
+.bg-sample { 
+  color: #FFFFFF; 
+  background-color: #1B3756; 
+} 
+
+.btn-sample { 
+    color: #FFFFFF; 
+    background-color: #1B3756; 
+    border-color: #1B3756; 
+  } 
+   
+  .btn-sample:hover, 
+  .btn-sample:focus, 
+  .btn-sample:active, 
+  .btn-sample.active, 
+  .open .dropdown-toggle.btn-sample { 
+    color: #FFFFFF; 
+    background-color: #1E3E63; 
+    border-color: #1B3756; 
+  } 
+   
+  .btn-sample:active, 
+  .btn-sample.active, 
+  .open .dropdown-toggle.btn-sample { 
+    background-image: none; 
+  } 
+   
+  .btn-sample.disabled, 
+  .btn-sample[disabled], 
+  fieldset[disabled] .btn-sample, 
+  .btn-sample.disabled:hover, 
+  .btn-sample[disabled]:hover, 
+  fieldset[disabled] .btn-sample:hover, 
+  .btn-sample.disabled:focus, 
+  .btn-sample[disabled]:focus, 
+  fieldset[disabled] .btn-sample:focus, 
+  .btn-sample.disabled:active, 
+  .btn-sample[disabled]:active, 
+  fieldset[disabled] .btn-sample:active, 
+  .btn-sample.disabled.active, 
+  .btn-sample[disabled].active, 
+  fieldset[disabled] .btn-sample.active { 
+    background-color: #1B3756; 
+    border-color: #1B3756; 
+  } 
+   
+  .btn-sample .badge { 
+    color: #1B3756; 
+    background-color: #FFFFFF; 
+  }
