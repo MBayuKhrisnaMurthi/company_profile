@@ -5,6 +5,8 @@
 /*
 	Yoast FAQ CSS
 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 body .wp-block-yoast-faq-block .schema-faq-section{
     border: 2px solid #335548;
     margin-bottom: 15px;
